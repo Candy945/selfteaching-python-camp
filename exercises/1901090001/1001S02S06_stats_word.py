@@ -62,3 +62,8 @@ def stats_text_cn(text):
     t5 = Counter(t4)
     return t5
 print(stats_text_cn(cn_text))
+
+
+
+
+Counter('abcdeabcdabcaba').most_common(3)
